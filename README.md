@@ -16,8 +16,9 @@ A Docker Compose setup for running Apache Kafka with Zookeeper and Kafka UI, dep
 Create a `.env` file in the project root (see .env.example):
 
 ```bash
-KAFKA_HOST=                
+KAFKA_HOST=          
 NODE_ENV=
+KAFKA_HOST_EXTERNAL=
 ```
 
 ### 2. Start/Stop services
